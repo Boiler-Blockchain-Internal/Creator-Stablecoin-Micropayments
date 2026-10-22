@@ -6,3 +6,19 @@ Please write your name when editing, so we know who is doing what!
 
 Work Accomplished/Discussed:
 Work to finish next week:
+
+
+10/22/2026:
+
+Ishaan:
+Work Accomplished/Discussed:
+- Set up Supabase in the repo (supabase init) on branch backend/auth.
+- Wrote the profiles table migration: one profile per user, created automatically at sign-up (everyone starts as a buyer).
+- Enabled Row Level Security (RLS) on profiles: anyone can view profiles; users can only edit their own row (RLS), and only the username and display name (column privileges). Role and creator verification can't be changed by users.
+- Supabase keys go in .env.local, which is gitignored.
+- Not tested yet: the migration hasn't been run against a database.
+
+Work to finish next week:
+- Run the migration and test the RLS rules as real logged-in users.
+- Decide if usernames should be case-insensitive.
+- Decide how users become verified creators.

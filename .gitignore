@@ -1,0 +1,4 @@
+# Local env files (Supabase URL/keys live here, never in code)
+.env
+.env.local
+.env*.local
