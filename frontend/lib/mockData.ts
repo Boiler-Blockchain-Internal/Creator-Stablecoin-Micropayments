@@ -59,8 +59,8 @@ export const content: ContentItem[] = [
   {
     id: 5,
     title: "Notes to my future self",
-    creator: "Nina Patel",
-    creatorHandle: "ninapatel",
+    creator: "Jordan Ellis",
+    creatorHandle: "jordanellis",
     category: "Writing",
     price: 0,
     label: "PERSONAL JOURNAL",
